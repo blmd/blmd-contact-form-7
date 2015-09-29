@@ -1,15 +1,17 @@
 <?php
 /*
 Plugin Name: BLMD Contact Form 7
-Plugin URI: http://github.com/blmd/blmd-contact-form-7
+Plugin URI: https://github.com/blmd/blmd-contact-form-7
 Description: Stores Contact Form 7 messages under CPT. Only load CSS/JS on pages having the shortcode
 Author: blmd
-Author URI: http://github.com/blmd
-Version: 0.1
+Author URI: https://github.com/blmd
+Version: 0.2
+
+GitHub Plugin URI: https://github.com/blmd/blmd-contact-form-7
 */
 
 !defined( 'ABSPATH' ) && die;
-define( 'BLMD_CONTACT_FORM_7_VERSION', '0.1' );
+define( 'BLMD_CONTACT_FORM_7_VERSION', '0.2' );
 define( 'BLMD_CONTACT_FORM_7_URL', plugin_dir_url( __FILE__ ) );
 define( 'BLMD_CONTACT_FORM_7_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BLMD_CONTACT_FORM_7_BASENAME', plugin_basename( __FILE__ ) );
